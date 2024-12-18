@@ -1,15 +1,13 @@
 {
-  "name": "@repo/ui",
+  "name": "@repo/layout",
   "version": "0.0.0",
   "type": "module",
   "private": true,
   "exports": {
-    "./button": "./src/button.tsx",
-    "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx"
+    "./header": "./src/header.tsx",
+    "./footer": "./src/footer.tsx"
   },
   "scripts": {
-    "generate:component": "turbo gen react-component",
     "check-types": "tsc --noEmit"
   },
   "devDependencies": {

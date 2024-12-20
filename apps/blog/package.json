@@ -9,10 +9,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@repo/layout": "*",
     "@astrojs/mdx": "^4.0.2",
+    "@astrojs/react": "^4.1.1",
     "@astrojs/rss": "^4.0.10",
     "@astrojs/sitemap": "^3.2.1",
-    "astro": "^5.0.9"
+    "@repo/layout": "*",
+    "astro": "^5.0.9",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }
